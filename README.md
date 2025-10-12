@@ -28,8 +28,10 @@ Paste a product URL and get a ready UGC kit automatically. We crawl the page, ex
 8) The app returns a ready UGC kit: 4 videos, 4 images, plus captions and hashtags — all on brand.
 9) **All of this is fully automated under the hood.**
 
-## Exports (samples)
-See `/exports` for Firecrawl sample, n8n workflow, and prompt templates.
+## Team
+- **Valery Sharipov** — Product & pipeline orchestration. Background in product development and entrepreneurship; not a professional software engineer. [LinkedIn](https://www.linkedin.com/in/valery-sharipov-3648a380/)
+- **Marina Kiseleva** — Product design & UX. Background in design and product development; not a professional software engineer. [LinkedIn](https://www.linkedin.com/in/marinaref/)
+**Primary tool:** Lovable. We’re among Lovable’s top builders.
 
 ## Roadmap
 Batch by sitemap • personas • multilingual • Ads export.
