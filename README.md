@@ -2,6 +2,7 @@
 From product URL to UGC kit in 1 min (4 imgs, 4 vids, captions, brand-aware).
 
 **Name:** **URL to VIDEO**. *Registered as **UNDERLY** in the hackathon application.*
+
 **Live demo:** https://mysynt.io
 **Login (demo):** Click **“Continue with Google”** or signup via email.  
 **Note:** Built entirely on **Lovable** (no separate GitHub codebase). 
