@@ -18,8 +18,15 @@ Paste a product URL and get a ready UGC kit automatically. We crawl the page, ex
 - **Speed & cost.** Inference is fast and affordable enough for batch UGC; last year it was too slow and too expensive.
 
 ## How it works
-Firecrawl ingest → LLM extraction → prompt templates (review / unboxing / how-to / teaser) → FFmpeg assemble → subtitles & brand colors.  
-Orchestration: n8n + cached assets.
+1) Paste a product URL in the web app (built with Lovable).
+2) Firecrawl fetches and structures the product page: title, price, description, gallery, brand cues.
+3) OpenAI 4o mini reads this data and infers audience, tone, benefits, objections, and CTAs.
+4) We normalize images: crop/resize to vertical, clean artifacts, and pick a key “hero” frame.
+5) The LLM composes prompt templates for four formats: review, unboxing, how to, teaser.
+6) We generate “product + avatar” stills with Gemini Flash Image 2.5 (“Nano Banana”) on Runware.
+7) We animate them into short vertical videos with Veo 3 / Kling, then add subtitles and CTA.
+8) The app returns a ready UGC kit: 4 videos, 4 images, plus captions and hashtags — all on brand.
+9) **All of this is fully automated under the hood.**
 
 ## Exports (samples)
 See `/exports` for Firecrawl sample, n8n workflow, and prompt templates.
