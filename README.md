@@ -1,9 +1,11 @@
 # url-to-video-hackbarna
 From product URL to UGC kit in 1 min (4 imgs, 4 vids, captions, brand-aware).
 
+**Name:** URL to VIDEO. *Registered as **UNDERLY** in the hackathon application.*
 **Live demo:** https://mysynt.io
 **Login (demo):** Click **“Continue with Google”** or signup via email.  
 **Note:** Built entirely on **Lovable** (no separate GitHub codebase). 
+
 
 ## Problem
 Brands and sellers need lots of short UGC across SKUs, but most lack in-house production/marketing and big budgets. So they either juggle GenAI point tools (prompting, editing, subtitling, brand fit) which demands time, expertise, and taste, or run traditional shoots that are slow, expensive, and hard to scale.
